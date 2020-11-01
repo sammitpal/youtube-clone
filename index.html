@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Youtube Player</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" media="screen and (max-width: 910px)" href="./css/mobileindex.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left">
+            <img src="./image/download.png" alt="">
+        </div>
+        <div class="mid">
+            <form id="form">
+                <div class="header">
+                    <input type="text" name="" id="search" placeholder="Search">
+                    <button type="submit"><i class="material-icons">search</i>
+                </div>
+            </form>
+        </div>
+        <div class="right">
+
+            <i class="material-icons">video_call</i>
+            <i class="material-icons">apps</i>
+            <i class="material-icons">notifications</i>
+            <i class="material-icons">account_circle</i>
+        </div>
+    </nav>
+    <div class="back">
+        <div class="sidebar">
+            <div>
+                <i class="material-icons">home</i>
+                <span>Home</span>
+            </div>
+
+            <div>
+                <i class="material-icons">local_fire_department</i>
+                <span>Trending</span>
+            </div>
+
+            <div>
+                <i class="material-icons">shop</i>
+                <span>Subscriptions</span>
+            </div>
+
+            <div>
+                <i class="material-icons">video_library</i>
+                <span>Library</span>
+            </div>
+        </div>
+        <div id="main"></div>
+    </div>
+    <div class="button">
+        <button id="loadmore" onclick="loadmore()">Load More</button>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>

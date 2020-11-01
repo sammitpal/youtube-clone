@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #eee;
+    z-index: 1;
+}
+.navbar div{
+    margin: auto;
+}
+
+.navbar .left img
+{
+    width: 70px;
+}
+.navbar .right i{
+    margin: 0 10px
+}
+form{
+    width: 100%;
+    margin: auto;
+}
+.navbar form .header{
+    width: 600px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #000;
+}
+.navbar form .header input{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem 1rem;
+    border: none;
+}
+.navbar form .header button{
+    border: none;
+}
+.navbar form button:focus{
+    outline: none;
+}
+.navbar form input:focus{
+    outline: none;
+}
+
+.sidebar{
+    background-color: #eee;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 74px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.9rem;
+}
+.sidebar div{
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        width: auto;
+        padding: 0 20px;
+}
+.sidebar div:hover{
+    color: red;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    background-color: #d3d3d3;
+}
+.sidebar div i{
+    margin: 5px;
+}
+#main{
+    width: 80%;
+    height: 100%;
+    background-color: #f9f9f9;
+    position: relative;
+    top: 67px;
+    left: 20%;
+}
+.element{
+    margin: 10px 8px; 
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.element .details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 120px;
+    margin: 0 20px;
+    width: 100%;
+}
+.element .details h2{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+}
+.element .details p{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+}
+.button{
+    height: 100px;
+    padding: 20px;
+    width: 100%;
+    position: relative;
+}
+.button button{
+    padding: 0.5rem;
+    cursor: pointer;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+}
+.element .details .time{
+    color: #808080;
+    font-size: 0.8rem;
+}
+

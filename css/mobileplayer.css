@@ -1,0 +1,10 @@
+.container h3{
+    font-family: 'Poppins', sans-serif;
+    width: 315px;
+    color: #2d2d2d;
+    font-size: 1.1rem;
+}
+.container .frame{
+    height: 200px;
+    width: 315px;
+}
